@@ -180,6 +180,10 @@ def getLuckyDogInfo(luckyDogs):
 
 
 #主程序
+print("+--------------------------- +")
+print("|点击进入Bilibili视频页面     |")
+print("|复制BV或者AV号，并粘贴在下方:|")
+print("+----------------------------+\n")
 verifyUrl()
 createDB()
 getReplyInfo()
