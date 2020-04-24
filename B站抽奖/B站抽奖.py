@@ -183,7 +183,6 @@ def getLuckyDogInfo(luckyDogs):
 verifyUrl()
 createDB()
 getReplyInfo()
-getUserID()
 luckyDogs = getLuckyDog(getUserID())
 getLuckyDogInfo(luckyDogs)
 deleteDB()
